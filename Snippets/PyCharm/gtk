@@ -1,0 +1,5 @@
+<template name="gtk" value="import gi&#10;&#10;gi.require_version(&quot;Gtk&quot;, &quot;4.0&quot;)&#10;gi.require_version(&quot;Adw&quot;, &quot;1&quot;)&#10;from gi.repository import Gtk, Adw" description="Adds Gtk imports into toplevel" toReformat="false" toShortenFQNames="true">
+  <context>
+    <option name="Python_Top_Level" value="true" />
+  </context>
+</template>

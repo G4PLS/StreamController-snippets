@@ -1,0 +1,10 @@
+{
+    "Connect to Event": {
+        "prefix": "con_event",
+        "body": [
+            "self.plugin_base.connect_to_event(event_id=${1:EVENT_ID}, callback=${2:CALLBACK})"
+        ],
+        "description": "Adds a new Connection to the PluginBase EventHolders",
+        "scope": "python"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "Add Color with Subdirs": {
+        "prefix": "addcl_s",
+        "body": [
+            "self.add_color(${1:COLOR_KEY}, path=self.get_asset_path(${2:ASSET_NAME}, ${3:SUBDIRS}))"
+        ],
+        "description": "Adds a Color with subdirs",
+        "scope": "python"
+    }
+}

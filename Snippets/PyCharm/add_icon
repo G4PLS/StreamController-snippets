@@ -1,0 +1,7 @@
+<template name="addic" value="self.add_icon($ICON_KEY$, path=self.get_asset_path($ASSET_NAME$))&#10;" description="Adds an Icon" toReformat="false" toShortenFQNames="true">
+  <variable name="ICON_KEY" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ASSET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="Python_Class" value="true" />
+  </context>
+</template>

@@ -1,0 +1,7 @@
+<template name="eh" value="self.$HOLDER_NAME$ = EventHolder(&#10;    plugin_base=self,&#10;    event_id=$EVENT_ID$&#10;)&#10;self.add_event_holder(self.$HOLDER_NAME$)" description="Adds a new EventHolder" toReformat="false" toShortenFQNames="true">
+  <variable name="HOLDER_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="EVENT_ID" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="Python_Class" value="true" />
+  </context>
+</template>

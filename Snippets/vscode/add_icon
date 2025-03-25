@@ -1,0 +1,10 @@
+{
+    "Add Icon": {
+        "prefix": "addic",
+        "body": [
+            "self.add_icon(${1:ICON_KEY}, path=self.get_asset_path(${2:ASSET_NAME}))"
+        ],
+        "description": "Adds an Icon",
+        "scope": "python"
+    }
+}

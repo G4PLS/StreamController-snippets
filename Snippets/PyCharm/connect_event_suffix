@@ -1,0 +1,7 @@
+<template name="con_event_suf" value="self.plugin_base.connect_to_event(event_id_suffix=$EVENT_ID$, callback=$CALLBACK$)" description="Adds a new Connection to the PluginBase EventHolders with suffix" toReformat="false" toShortenFQNames="true">
+  <variable name="EVENT_ID" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="CALLBACK" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="Python_Class" value="true" />
+  </context>
+</template>

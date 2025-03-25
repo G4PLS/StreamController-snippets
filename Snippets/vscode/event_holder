@@ -1,0 +1,14 @@
+{
+    "Create EventHolder": {
+        "prefix": "eh",
+        "body": [
+            "self.${1:HOLDER_NAME} = EventHolder(",
+            "    plugin_base=self,",
+            "    event_id=${2:EVENT_ID}",
+            ")",
+            "self.add_event_holder(self.${1:HOLDER_NAME})"
+        ],
+        "description": "Adds a new EventHolder",
+        "scope": "python"
+    }
+}

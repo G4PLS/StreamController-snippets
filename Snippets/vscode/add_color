@@ -1,0 +1,10 @@
+{
+    "Add Color": {
+        "prefix": "addcl",
+        "body": [
+            "self.add_color(${1:COLOR_KEY}, color=(${2:0}, ${3:0}, ${4:0}, ${5:0}))"
+        ],
+        "description": "Adds a Color",
+        "scope": "python"
+    }
+}

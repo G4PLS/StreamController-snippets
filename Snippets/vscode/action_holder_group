@@ -1,0 +1,10 @@
+{
+    "Create ActionHolderGroup": {
+        "prefix": "ahg",
+        "body": [
+            "self.${1:GROUP_NAME} = ActionHolderGroup(${2:DISPLAY_NAME}, [${3:ACTION_HOLDERS}])"
+        ],
+        "description": "Adds a new ActionHolderGroup",
+        "scope": "python"
+    }
+}

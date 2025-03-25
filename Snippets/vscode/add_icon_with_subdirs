@@ -1,0 +1,10 @@
+{
+    "Add Icon with Subdirs": {
+        "prefix": "addic_s",
+        "body": [
+            "self.add_icon(${1:ICON_KEY}, path=self.get_asset_path(${2:ASSET_NAME}, ${3:SUBDIRS}))"
+        ],
+        "description": "Adds an Icon with subdirs",
+        "scope": "python"
+    }
+}

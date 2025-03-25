@@ -1,0 +1,14 @@
+{
+    "Create EventHolder with Suffix": {
+        "prefix": "ehs",
+        "body": [
+            "self.${1:HOLDER_NAME} = EventHolder(",
+            "    plugin_base=self,",
+            "    event_id_suffix=${2:EVENT_ID_SUFFIX}",
+            ")",
+            "self.add_event_holder(self.${1:HOLDER_NAME})"
+        ],
+        "description": "Adds a new EventHolder but uses Suffix",
+        "scope": "python"
+    }
+}

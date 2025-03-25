@@ -1,0 +1,8 @@
+<template name="ahg" value="self.$GROUP_NAME$ = ActionHolderGroup($DISPLAY_NAME$, [$ACTION_HOLDERS$])" description="Adds a new ActionHolderGroup" toReformat="false" toShortenFQNames="true">
+  <variable name="GROUP_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="DISPLAY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ACTION_HOLDERS" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="Python_Class" value="true" />
+  </context>
+</template>

@@ -1,0 +1,12 @@
+<template name="ah" value="self.$HOLDER_NAME$ = ActionHolder(&#10;    plugin_base=self,&#10;    action_core=$ACTION_CORE$,&#10;    action_id_suffix=$ACTION_SUFFIX$,&#10;    action_name=$ACTION_NAME$,&#10;    action_support= {&#10;        Input.Key: ActionInputSupport.$KEY_SUPPORT$,&#10;        Input.Dial: ActionInputSupport.$DIAL_SUPPORT$,&#10;        Input.Touchscreen: ActionInputSupport.$SCREEN_SUPPORT$&#10;    }&#10;)&#10;self.add_action_holder(self.$HOLDER_NAME$)" description="Adds a new ActionHolder" toReformat="false" toShortenFQNames="true">
+  <variable name="HOLDER_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ACTION_CORE" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ACTION_SUFFIX" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ACTION_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="KEY_SUPPORT" expression="x/(" defaultValue="UNTESTED" alwaysStopAt="true" />
+  <variable name="DIAL_SUPPORT" expression="" defaultValue="UNTESTED" alwaysStopAt="true" />
+  <variable name="SCREEN_SUPPORT" expression="" defaultValue="UNTESTED" alwaysStopAt="true" />
+  <context>
+    <option name="Python_Class" value="true" />
+  </context>
+</template>

@@ -1,0 +1,10 @@
+{
+    "Connect to Event with Suffix": {
+        "prefix": "con_event_suf",
+        "body": [
+            "self.plugin_base.connect_to_event(event_id_suffix=${1:EVENT_ID}, callback=${2:CALLBACK})"
+        ],
+        "description": "Adds a new Connection to the PluginBase EventHolders with suffix",
+        "scope": "python"
+    }
+}

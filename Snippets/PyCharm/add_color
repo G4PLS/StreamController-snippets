@@ -1,0 +1,10 @@
+<template name="addcl" value="self.add_color($COLOR_KEY$, color=($RED$,$GREEN$,$BLUE$,$ALPHA$))" description="Adds a Color" toReformat="false" toShortenFQNames="true">
+  <variable name="COLOR_KEY" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="RED" expression="" defaultValue="0" alwaysStopAt="true" />
+  <variable name="GREEN" expression="" defaultValue="0" alwaysStopAt="true" />
+  <variable name="BLUE" expression="" defaultValue="0" alwaysStopAt="true" />
+  <variable name="ALPHA" expression="" defaultValue="0" alwaysStopAt="true" />
+  <context>
+    <option name="Python_Class" value="true" />
+  </context>
+</template>
