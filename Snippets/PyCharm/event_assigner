@@ -1,0 +1,9 @@
+<template name="ea" value="self.event_manager.add_event_assigner(&#10;    EventAssigner(&#10;        id=&quot;$EVENT_ID$&quot;,&#10;        ui_label=&quot;$UI_LABEL$&quot;,&#10;        default_event=$DEFAULT_EVENT$,&#10;        callback=$CALLBACK$&#10;    ))" description="Adds a new event assigner" toReformat="false" toShortenFQNames="true">
+  <variable name="EVENT_ID" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="UI_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="DEFAULT_EVENT" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="CALLBACK" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="Python_Class" value="true" />
+  </context>
+</template>

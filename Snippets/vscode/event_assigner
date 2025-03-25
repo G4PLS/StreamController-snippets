@@ -1,0 +1,17 @@
+{
+    "Add Event Assigner": {
+        "prefix": "ea",
+        "body": [
+            "self.event_manager.add_event_assigner(",
+            "    EventAssigner(",
+            "        id=${1:EVENT_ID},",
+            "        ui_label=${2:UI_LABEL},",
+            "        default_event=${3:DEFAULT_EVENT},",
+            "        callback=${4:CALLBACK}",
+            "    )",
+            ")"
+        ],
+        "description": "Adds a new event assigner",
+        "scope": "python"
+    }
+}
